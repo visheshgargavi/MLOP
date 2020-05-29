@@ -70,7 +70,7 @@ model.add(Activation("relu"))
 model.add(Dense(num_classes))
 model.add(Activation("softmax"))
            model.compile(loss = 'categorical_crossentropy',
-              optimizer = keras.optimizers.Adadelta(),
+              optimizer = keras.optimizers.Adam),
               metrics = ['accuracy'])
 
 print(model.summary())
