@@ -69,7 +69,7 @@ model.add(Activation("relu"))
 # Softmax (for classification)
 model.add(Dense(num_classes))
 model.add(Activation("softmax"))
-model.compile(loss = 'categorical_crossentropy',optimizer = keras.optimizers.Adam),metrics = ['accuracy'])
+model.compile(loss = 'categorical_crossentropy',optimizer = keras.optimizers.Adam,metrics = ['accuracy'])
 
 print(model.summary())
 # ### Now let us train LeNet on our MNIST Dataset
