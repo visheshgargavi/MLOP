@@ -86,6 +86,6 @@ model.save("model/mnist_model.h5")
 # Evaluate the performance of our trained model
 scores = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', scores[0])
-print("Accuracy: %.2f%%"%, (scores[1]*100))
+print("Accuracy: %.2f%%", (scores[1]*100))
 file1 = open("result.txt","w")
 file1.write(str(score[1]*100)
