@@ -11,7 +11,7 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 # Start the server connection
 server.starttls()
 # Login
-server.login("shivamguptasparklev@gmail.com", "garg9462885915")
+server.login("shivamguptasparklev@gmail.com", "***************")
 print("Login Success!")
 # Send Email
 server.sendmail("Shivam Gupta", "shivamguptasg1808@gmail.com", message)
